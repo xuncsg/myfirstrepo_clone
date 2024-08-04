@@ -31,5 +31,20 @@ Markdown Format (.md) based off 'Markdown Cheat Sheet' at [MarkdownGuide](https:
 5. The changes will be reflected on GH 
 
 ###Other Steps (Done without collaborator so without branch checkout)
-1. Created contact.html
+1. Created contact.html and added internal notes
 2. Created about.html 
+3. Created product branch (git checkout -b products) *Shift+Ctrl+down*
+
+| Syntax            | Description |
+| -----------       | ----------- |
+| git clone <.>     | Clone a repository’s contents to the root of a local, working folder, observe appended ‘.’|
+| git status        | Review modified and untracked files on a local, working branch.    |
+| git add index.html about.html |Add modified and/or untracked files by its individual names to the staging area of a local, working branch before committing.|
+|git commit -m "Comments"|Commit file(s) that were added to the staging area of a local, working branch - using a meaningful message to the commit.|
+|git branch         |View available local branches AND the currently local, working branch.|
+|git push           |Push a local branch on Github - works when an upstream has been established, see point #9. |
+|git push –force    |Forcefully push changes to a remote repository, overriding any potential conflicts or discrepancies between our local branch and the remote branch|
+
+
+
+
