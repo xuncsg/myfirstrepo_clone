@@ -23,3 +23,4 @@ Markdown Format (.md) based off 'Markdown Cheat Sheet' at [title](https://www.ma
 ### Step 4: Making changes within index.html 
 1. Modify index.html 
 2. git add .
+3. git commit -m "Updated homepage" *'-m' denotes message*
